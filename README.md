@@ -1,6 +1,6 @@
 # portfolio_martyna_brodka
 
-#   Task 1 <h1>
+#   Task 1
   ## Subtask 1
   
   na razie 0 punktów
