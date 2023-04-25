@@ -36,7 +36,7 @@ W mojej ocenie aplikacja nie jest czytelna, ani intuicyjna. Wymaga dokładnego p
 ### IV
 Znalezione błędy w aplikacji:
 * W zakładce "Gracze":
-   \1.Jest możliwość wpisania ujemnych wartości wagi, wzrostu, wieku
+* \1.Jest możliwość wpisania ujemnych wartości wagi, wzrostu, wieku
    \2.Można wybrać rok urodzenia gracza z datą przyszłą
    \3. Przy wpisywaniu zarówno imienia jak i nazwiska są dozwolone znaki specjalne, cyfry, zaczynające się z małej litery, całe nazwy z wielkiej litery, tylko jedna litera
    \4. Możliwość wpisania wieku w liczbie: 0 lat, 1022 lata
