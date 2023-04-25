@@ -13,10 +13,10 @@
 
 ## Subtask 4
 
-### 1
+### I
 Aplikacja Futbol Kolektyw została stworzona dla scautów piłki nożnej, służy do zarządzania meczami, przeglądania zawodników, tworzenia raportów z meczy, opisywania akcji w meczach.
 
-### 2
+### II
 W aplikacji zawarte są szczegółowe informacje o zawodnikach. Oprócz imienia i nazwiska, jest również adres e-mail, telefonwiek, wzrost, pozycja na boisku, klub do którego przynależy zawodnik, ocena (recenzja), liczba meczy, w których grał oraz inne dane dotyczące zawodnika.
 
 Po wybraniu konkretnego gracza widoczne są zakładki:
@@ -25,7 +25,7 @@ Po wybraniu konkretnego gracza widoczne są zakładki:
 
 W każdej chwili można przełączyć język z polskiego na angielski poprzez stale widoczną zakładkę.
 
-### 3
+### III
 Użytkownik aplikacji może:
 - dodawać zawodnika (Gracza) i modyfikować jego dane,
 - dodawać mecze, edytować dane z meczu, tworzyć raport meczowy, tworzyć dokładną wizualizację meczu w czasie rzeczywistym, zaznaczać akcje, które się dzieją w konkretnym miejscu na boisku,
@@ -33,27 +33,27 @@ Użytkownik aplikacji może:
 
 W mojej ocenie aplikacja nie jest czytelna, ani intuicyjna. Wymaga dokładnego przeklikiwania, by móc się dowiedzieć, co jeszcze się w niej znajduje. Strona główna wymagałaby poprawek wizualnych, np. więcej grafik. Brakuje zdjęć zawodników.
 
-### 4
+### IV
 Znalezione błędy w aplikacji:
 * W zakładce "Gracze":
-  \1. Jest możliwość wpisania ujemnych wartości wagi, wzrostu, wieku
-  \2. Można wybrać rok urodzenia gracza z datą przyszłą
-  \3. Przy wpisywaniu zarówno imienia jak i nazwiska są dozwolone znaki specjalne, cyfry, zaczynające się z małej litery, całe nazwy z wielkiej litery, tylko jedna litera
-  \4. Możliwość wpisania wieku w liczbie: 0 lat, 1022 lata
-  \5. Pole "waga" nie ma określonej miary, nie wiadomo czy należy wpisywać w kg, w funtach?
-  \6. Pole "link do YouTube" przyjmuje wartość zwykłego napisu, bez linku
-  \7. Niezrozumiałe pole "łączy nas piłka", "90 minut". Nie wiadomo, jaką treść może/ma zawierać.
-  \8. Pole "Pozycja" powinno być wybierane z listy, są to powtarzalne funkcje, a jest możliwość wpisania samodzielnie jakiegokolwiek wyrazu.
-  \9. Nie powinno być możliwości wielokrotnego wpisywania tego samego zawodnika (np. Adam Kowalski)
-  \10. Nie ma możliwości przewinięcia listy graczy do ostatniej, konkretnej lub pierwszej strony, co przy ilości kilku tysięcy stron jest utrudnieniem w wyszukiwaniu.
-  \11. Zdobyte/stracone gole można zapisać w formacie liczby szesnastkowej
-  \12. Pole "Telefon" przyjmuje wartości literowe, jest nieprecyzyjnie nazwane pole, powinno być "Numer telefonu"
+   \1.Jest możliwość wpisania ujemnych wartości wagi, wzrostu, wieku
+   \2.Można wybrać rok urodzenia gracza z datą przyszłą
+   \3. Przy wpisywaniu zarówno imienia jak i nazwiska są dozwolone znaki specjalne, cyfry, zaczynające się z małej litery, całe nazwy z wielkiej litery, tylko jedna litera
+   \4. Możliwość wpisania wieku w liczbie: 0 lat, 1022 lata
+   \5. Pole "waga" nie ma określonej miary, nie wiadomo czy należy wpisywać w kg, w funtach?
+   \6. Pole "link do YouTube" przyjmuje wartość zwykłego napisu, bez linku
+   \7. Niezrozumiałe pole "łączy nas piłka", "90 minut". Nie wiadomo, jaką treść może/ma zawierać.
+   \8. Pole "Pozycja" powinno być wybierane z listy, są to powtarzalne funkcje, a jest możliwość wpisania samodzielnie jakiegokolwiek wyrazu.
+   \9. Nie powinno być możliwości wielokrotnego wpisywania tego samego zawodnika (np. Adam Kowalski)
+   \10. Nie ma możliwości przewinięcia listy graczy do ostatniej, konkretnej lub pierwszej strony, co przy ilości kilku tysięcy stron jest utrudnieniem w wyszukiwaniu.
+   \11. Zdobyte/stracone gole można zapisać w formacie liczby szesnastkowej
+   \12. Pole "Telefon" przyjmuje wartości literowe, jest nieprecyzyjnie nazwane pole, powinno być "Numer telefonu"
 
 * W zakładce Mecze":
   \1. Po kliknięciu ikony "Rozpocznij mecz" brakuje opisów ikon, po najechaniu na nie myszką. Przez co nie wiadomo, do czego służą.
   \2. Po kliknięciu ikony "Rozpocznij mecz", następnie kliknięciu ikony do rozpoczęcia meczu oraz wybraniu ikony "Strata" są pokazane dwie możliwośći do wyboru: "Zle przyjecie" oraz "Holowanie piłki". Brakuje polskich znaków w ikonie o nazwie "Zle przyjecie".
 
-* W zakładce "Raporty"
+* W zakładce "Raporty":
   \1. Przy dodawaniu raportu w punkcie "V. Dane statystyczne" nie można nic dodać. Nie wiadomo, czy to są dane z pozostałych raportów, czy w konkretnym meczu, który dodajemy powinna być możlwiwość wpisania danych np. o "Strzałach", "Pojedynkach" lub innych.
   \2. w "Raporcie meczowym" możliwe jest wpisanie: ujemnego czasu gry, linku do meczu bez linku, ujemnego numeru na koszulce, koloru koszulki w ilości znaków wykraczających poza obszar pola.
   \3. Po kliknięciu zakładki "Raporty" nie ma możliwosći zobaczenia raportu meczowego, dopiero po kliknięciu z prawej strony tabeli "Akcje" jest możliwość zobaczenia raportu o zawodniku, ale już w trybie edycji.
