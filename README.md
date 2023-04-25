@@ -36,7 +36,7 @@ W mojej ocenie aplikacja nie jest czytelna, ani intuicyjna. Wymaga dokładnego p
 ### IV
 Znalezione błędy w aplikacji:
 * W zakładce **"Gracze"**:
-  \1.Jest możliwość wpisania ujemnych wartości wagi, wzrostu, wieku
+* \1.Jest możliwość wpisania ujemnych wartości wagi, wzrostu, wieku
   
   \2.Można wybrać rok urodzenia gracza z datą przyszłą
   
