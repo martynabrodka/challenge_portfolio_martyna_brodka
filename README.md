@@ -60,3 +60,14 @@ Znalezione błędy w aplikacji:
 
 * Pozostałe:
   * W czasie korzystania z aplikacji zakładka "Mecze" oraz "Raporty" widoczna jest dopiero po wybraniu konkretnego "Gracza", przez co użytkownik nie wie, czy to są "Mecze", w kórych tylko ten jeden zawodnik brał udział i czy "Raporty" dotyczą tylko tego jednego gracza, czy jednak nie powinny być te zakładki widoczne na "Stronie głównej"
+  
+  #   Task 2
+  ## Subtask 1
+  
+  
+  
+  ## Subtask 2
+  
+  ## Subtask 3
+  
+  ## Subtask 4
