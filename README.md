@@ -64,9 +64,11 @@ Znalezione błędy w aplikacji:
   #   Task 2
   ## Subtask 1
   
-  
+  https://docs.google.com/spreadsheets/d/17wW2EmyXQof2-13uWYF5mfNGfczgWw1K5h5nRc2g9DA/edit?usp=share_link
   
   ## Subtask 2
+  
+  https://docs.google.com/spreadsheets/d/1qhqq7gvB1-uo2Hk41foYMNccAh6UfEV9Ui-XiaKFGCY/edit?usp=share_link
   
   ## Subtask 3
   
