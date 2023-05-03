@@ -77,6 +77,6 @@ Znalezione błędy w aplikacji:
   
   ## Subtask 4
   
-  https://markowe.atlassian.net/browse/CPP-1
+  https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link
   
   
