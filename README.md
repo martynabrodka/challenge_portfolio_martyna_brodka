@@ -61,7 +61,8 @@ Znalezione błędy w aplikacji:
 * Pozostałe:
   * W czasie korzystania z aplikacji zakładka "Mecze" oraz "Raporty" widoczna jest dopiero po wybraniu konkretnego "Gracza", przez co użytkownik nie wie, czy to są "Mecze", w kórych tylko ten jeden zawodnik brał udział i czy "Raporty" dotyczą tylko tego jednego gracza, czy jednak nie powinny być te zakładki widoczne na "Stronie głównej"
   
-  #   Task 2
+  
+#   Task 2
   ## Subtask 1
   
   https://docs.google.com/spreadsheets/d/17wW2EmyXQof2-13uWYF5mfNGfczgWw1K5h5nRc2g9DA/edit?usp=share_link
@@ -70,7 +71,9 @@ Znalezione błędy w aplikacji:
   
   https://docs.google.com/spreadsheets/d/1qhqq7gvB1-uo2Hk41foYMNccAh6UfEV9Ui-XiaKFGCY/edit?usp=share_link
   
-  ## Subtask 3
+  ## Subtask 3 - W jakim celu piszemy przypadki testowe?
+  
+    Przypadki testowe piszemy w celu udokumentowania w czytelny, przejrzysty sposób różnych możliwości obsługiwania modułów w ramach testowanej aplikacji. Wypisując przypadki testowe łatwiej zorientować się, czy nie pominęliśmy jakiejś ważnej funkcjonalności, czy może jednak pominęliśmy coś, co powinno zostać sprawdzone. Przypadki testowe są również dobrym źródłem informacji dla nowej osoby w zespole o pracy zespołu oraz o samej aplikacji. Przypadki testowe można także wykorzystać w celu potwierdzenia działania aplikacji zgodnie z oczekiwaniami.
   
   ## Subtask 4
   
