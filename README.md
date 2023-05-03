@@ -73,7 +73,7 @@ Znalezione błędy w aplikacji:
   
   ## Subtask 3 - W jakim celu piszemy przypadki testowe?
   
-  |-Przypadki testowe piszemy w celu udokumentowania w czytelny, przejrzysty sposób różnych możliwości obsługiwania modułów w ramach testowanej aplikacji. Wypisując przypadki testowe łatwiej zorientować się, czy nie pominęliśmy jakiejś ważnej funkcjonalności, czy może jednak pominęliśmy coś, co powinno zostać sprawdzone. Przypadki testowe są również dobrym źródłem informacji dla nowej osoby w zespole o pracy zespołu oraz o samej aplikacji. Przypadki testowe można także wykorzystać w celu potwierdzenia działania aplikacji zgodnie z oczekiwaniami.
+  Przypadki testowe piszemy w celu udokumentowania w czytelny, przejrzysty sposób różnych możliwości obsługiwania modułów w ramach testowanej aplikacji. Wypisując przypadki testowe łatwiej zorientować się, czy nie pominęliśmy jakiejś ważnej funkcjonalności, czy może jednak pominęliśmy coś, co powinno zostać sprawdzone. Przypadki testowe są również dobrym źródłem informacji dla nowej osoby w zespole o pracy zespołu oraz o samej aplikacji. Przypadki testowe można także wykorzystać w celu potwierdzenia działania aplikacji zgodnie z oczekiwaniami.
   
   ## Subtask 4
   
