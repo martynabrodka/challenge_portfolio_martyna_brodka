@@ -73,3 +73,7 @@ Znalezione błędy w aplikacji:
   ## Subtask 3
   
   ## Subtask 4
+  
+  https://markowe.atlassian.net/browse/CPP-1
+  
+  
