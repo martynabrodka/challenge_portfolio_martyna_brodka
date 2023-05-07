@@ -14,10 +14,10 @@
 ## Subtask 4
 
 ### I
-Aplikacja Futbol Kolektyw została stworzona dla scautów piłki nożnej, służy do zarządzania meczami, przeglądania zawodników, tworzenia raportów z meczy, opisywania akcji w meczach.
+Aplikacja PANEL SKAUTINGOWY została stworzona dla scautów piłki nożnej, służy do zarządzania meczami, przeglądania zawodników, tworzenia raportów z meczy, opisywania akcji w meczach.
 
 ### II
-W aplikacji zawarte są szczegółowe informacje o zawodnikach. Oprócz imienia i nazwiska, jest również adres e-mail, telefonwiek, wzrost, pozycja na boisku, klub do którego przynależy zawodnik, ocena (recenzja), liczba meczy, w których grał oraz inne dane dotyczące zawodnika.
+W aplikacji zawarte są szczegółowe informacje o zawodnikach. Oprócz imienia i nazwiska, jest również adres e-mail, telefon, wiek, wzrost, pozycja na boisku, klub do którego przynależy zawodnik, ocena (recenzja), liczba meczy, w których grał oraz inne dane dotyczące zawodnika.
 
 Po wybraniu konkretnego gracza widoczne są zakładki:
 - "Mecze" (mecze, w których grał). Do każdego meczu przypisane są dane: drużyna zawodnika, zdobyte gole, stracone gole, drużyna przeciwnika, data meczu, czas gry, recenzja, wprowadzający informacje o meczu (autor);
@@ -65,11 +65,11 @@ Znalezione błędy w aplikacji:
 #   Task 2
   ## Subtask 1
   
-  https://docs.google.com/spreadsheets/d/17wW2EmyXQof2-13uWYF5mfNGfczgWw1K5h5nRc2g9DA/edit?usp=share_link
+  [Pisanie przypadków testowych na podstawie User Story](https://docs.google.com/spreadsheets/d/17wW2EmyXQof2-13uWYF5mfNGfczgWw1K5h5nRc2g9DA/edit?usp=share_link)
   
   ## Subtask 2
   
-  https://docs.google.com/spreadsheets/d/1qhqq7gvB1-uo2Hk41foYMNccAh6UfEV9Ui-XiaKFGCY/edit?usp=share_link
+  [Pisanie przypadków testowych na podstawie własnych doświadczeń](https://docs.google.com/spreadsheets/d/1qhqq7gvB1-uo2Hk41foYMNccAh6UfEV9Ui-XiaKFGCY/edit?usp=share_link)
   
   ## Subtask 3 - W jakim celu piszemy przypadki testowe?
   
@@ -77,6 +77,18 @@ Znalezione błędy w aplikacji:
   
   ## Subtask 4
   
-  https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link
+  [Link do zadania grupowego](https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link)
   
+#   Task 3
+
+  ## Subtask 1
   
+  [Zaraportowane błędy](https://docs.google.com/spreadsheets/d/1haXh73EnlIF2jbQ_I6-51CpYrvwtagGsznB-xxmbrRk/edit?usp=share_link)
+  
+  ## Subtask 2
+  
+  [Testowanie według przypadków testowych napisanych na podstawie User Story](https://docs.google.com/spreadsheets/d/17wW2EmyXQof2-13uWYF5mfNGfczgWw1K5h5nRc2g9DA/edit?usp=share_link)
+  
+  [Testowanie według przypadków testowych napisanych na podstawie własnych doświadczeń](https://docs.google.com/spreadsheets/d/1qhqq7gvB1-uo2Hk41foYMNccAh6UfEV9Ui-XiaKFGCY/edit?usp=share_link)
+  
+  ## Subtask 3
