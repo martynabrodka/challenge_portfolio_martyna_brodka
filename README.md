@@ -92,3 +92,7 @@ Znalezione błędy w aplikacji:
   [Testowanie według przypadków testowych napisanych na podstawie własnych doświadczeń](https://docs.google.com/spreadsheets/d/1qhqq7gvB1-uo2Hk41foYMNccAh6UfEV9Ui-XiaKFGCY/edit?usp=share_link)
   
   ## Subtask 3
+  
+  [Raport z testów](https://docs.google.com/spreadsheets/d/1jttRvw_sA15w4ZhtyLvgy9YZXiXuAco_H5eXO2VMW-I/edit?usp=share_link)
+  
+  
