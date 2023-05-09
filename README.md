@@ -1,6 +1,6 @@
 # portfolio_martyna_brodka
 
-#   Task 1
+#   Task 1: Testy eksploracyjne
   ## Subtask 1
   
   10/10 punktów
@@ -62,7 +62,7 @@ Znalezione błędy w aplikacji:
   * W czasie korzystania z aplikacji zakładka "Mecze" oraz "Raporty" widoczna jest dopiero po wybraniu konkretnego "Gracza", przez co użytkownik nie wie, czy to są "Mecze", w kórych tylko ten jeden zawodnik brał udział i czy "Raporty" dotyczą tylko tego jednego gracza, czy jednak nie powinny być te zakładki widoczne na "Stronie głównej"
   
   
-#   Task 2
+#   Task 2: Przypadki testowe (Test cases)
   ## Subtask 1
   
   [Pisanie przypadków testowych na podstawie User Story](https://docs.google.com/spreadsheets/d/17wW2EmyXQof2-13uWYF5mfNGfczgWw1K5h5nRc2g9DA/edit?usp=share_link)
@@ -79,7 +79,7 @@ Znalezione błędy w aplikacji:
   
   [Link do zadania grupowego](https://docs.google.com/spreadsheets/d/1VgJt98b6bYua1-8JfPPsxL6sXEJKsAZaQiAxdqr93Bk/edit?usp=share_link)
   
-#   Task 3
+#   Task 3: Raportowanie błędów
 
   ## Subtask 1
   
