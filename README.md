@@ -95,4 +95,21 @@ Znalezione błędy w aplikacji:
   
   [Raport z testów](https://docs.google.com/spreadsheets/d/1jttRvw_sA15w4ZhtyLvgy9YZXiXuAco_H5eXO2VMW-I/edit?usp=share_link)
   
+#   Task 4: Testowanie aplikacji mobilnych
+  
+  ## Subtask 1 i 2
+  
+  [Zaraportowane błędy aplikacji OLX](https://docs.google.com/spreadsheets/d/11Pi6VLGrnI0tyeVno8IfymIVcD4892X5/edit#gid=1470010360)
+  
+  ## Subtask 3
+  
+  * Aplikacja OLX służy do umieszczania ogłoszeń. Przedmioty można wystawić w kilkunastu kategoriach głównych, takich jak: Antyki i Kolekcje, Motoryzacja, Nieruchomości, Dom i Ogród, Elektronika, Moda, Rolnictwo, Zwierzęta, Dla dzieci, Sport i Hobby, Muzyka i Edukacja, Zdrowie i Uroda, Dla Ogrodu, Rowery. Dostępne są również ogłoszenia dla osób poszukujących pracy bądź pracowników (kategoria Praca lub Praca dodatkowa), a także znajdziemy tam oferty różnych usług (kategoria Usługi i Firmy, Dla Firm, Usługi ogrodnicze). Aplikacja oferuje możliwość zamieszczenia oferty/znalezienia noclegu (kategoria Noclegi), wypożyczalnię rzeczy (kategoria Wypożyczalnia) lub ogłoszenia oddania przedmiotu (kategoria Oddam za darmo). Celem aplikacji jest umożliwienie sprzedawania/kupowania przedmiotów lokalnie lub na obszarze Polski (np. z możliwością wysyłki).
+  * Użytkownikiem końcowym aplikacji jest szerokie grono osób: sprzedający, firmy oferujące usługi, pracę, kupujący, osoby chcące oddać przedmioty, obdarowani.
+  * Aplikacja nie do końca jest przyjazna dla użytkownika. Znajdując się na stronie głównej nie jestem w stanie wydedukować, czego można się spodziewać dalej. Pojawia się informacja, że znaleziono 1000 ogłoszeń, ale nie wiadomo jaki jest klucz wyboru właśnie tych, czy są one z jakiejś konkretnej kategorii, na jakiej podstawie zostały wyświetlone użytkownikowi. Gdy wchodzę do aplikacji, to muszę ją najpierw przeklikać, by się nauczyć funkcjonalności. W mojej opinii korzystanie z aplikacji natywnej OLX jest znacznie wygodniejsze niż z aplikacji mobilnej OLX. 
+  * Co wymaga usprawnienia w aplikacji?
+  ** Zdecydowanie czas ładowania stron. Wersja mobilna aplikacji długo się ładuje, nie tylko przy dodawaniu ogłoszenia.
+  ** Nie zawsze pojawiają się powiadomienia o otrzymaniu wiadomości z aplikacji, więc użytkownik jest wprowadzany w błąd, myśląc, że nie czeka na niego żadna wiadomość w aplikacji, jednak po wejściu w nią okazuje się, że wiadomość jest.
+  ** Po dodaniu zdjęć do ogłoszenia, po jakimś czasie zdjęcia się obracają, mimo, że w czasie dodawania ich widok był w porządku.
+  * Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+  
   
