@@ -107,9 +107,9 @@ Znalezione błędy w aplikacji:
   * Użytkownikiem końcowym aplikacji jest szerokie grono osób: sprzedający, firmy oferujące usługi, pracę, kupujący, osoby chcące oddać przedmioty, obdarowani.
   * Aplikacja nie do końca jest przyjazna dla użytkownika. Znajdując się na stronie głównej nie jestem w stanie wydedukować, czego można się spodziewać dalej. Pojawia się informacja, że znaleziono 1000 ogłoszeń, ale nie wiadomo jaki jest klucz wyboru właśnie tych, czy są one z jakiejś konkretnej kategorii, na jakiej podstawie zostały wyświetlone użytkownikowi. Gdy wchodzę do aplikacji, to muszę ją najpierw przeklikać, by się nauczyć funkcjonalności. W mojej opinii korzystanie z aplikacji natywnej OLX jest znacznie wygodniejsze niż z aplikacji mobilnej OLX. 
   * Co wymaga usprawnienia w aplikacji?
-  * \1. Zdecydowanie czas ładowania stron. Wersja mobilna aplikacji długo się ładuje, nie tylko przy dodawaniu ogłoszenia.
-  * \2. Nie zawsze pojawiają się powiadomienia o otrzymaniu wiadomości z aplikacji, więc użytkownik jest wprowadzany w błąd, myśląc, że nie czeka na niego żadna wiadomość w aplikacji, jednak po wejściu w nią okazuje się, że wiadomość jest.
-  * \3.  Po dodaniu zdjęć do ogłoszenia, po jakimś czasie zdjęcia się obracają, mimo, że w czasie dodawania ich widok był w porządku.
+  \1. Zdecydowanie czas ładowania stron. Wersja mobilna aplikacji długo się ładuje, nie tylko przy dodawaniu ogłoszenia.
+  \2. Nie zawsze pojawiają się powiadomienia o otrzymaniu wiadomości z aplikacji, więc użytkownik jest wprowadzany w błąd, myśląc, że nie czeka na niego żadna wiadomość w aplikacji, jednak po wejściu w nią okazuje się, że wiadomość jest.
+  \3.  Po dodaniu zdjęć do ogłoszenia, po jakimś czasie zdjęcia się obracają, mimo, że w czasie dodawania ich widok był w porządku.
   * Jak bym usprawniła aplikację?
     ** Zdecydowanie czas ładowania stron w aplikacji powinien zostać skrócony.
   * Co bym w niej poprawiła?
