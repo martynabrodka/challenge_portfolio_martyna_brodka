@@ -114,7 +114,7 @@ Znalezione błędy w aplikacji:
     * Zdecydowanie czas ładowania stron w aplikacji powinien zostać skrócony.
   * Co bym w niej poprawiła?
     * Uważam, że nie powinno być możliwośći dodawania opinii przez osoby, które nie zawarły z nami transakcji, a tylko wysłały wiadomość do nas, o coś się zapytały. Opinia takiej osoby jest bezpodstawna, nie jest pełna.
-    * Następnie dodałabym możliwość wpisania lokalizacji sprzedającego domyślnie na stałe, w chwili obecnej dodając ogłoszenie za każdym razem trzeba lokalizację wybierać ręcznie, natomiast adres mailowy, imię i telefon są domyślnie uzupełnione. Czy masz jakiś pomysł na dodatkową funkcjonalność?
-  * Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+    * Następnie dodałabym możliwość wpisania lokalizacji sprzedającego domyślnie na stałe, w chwili obecnej dodając ogłoszenie za każdym razem trzeba lokalizację wybierać ręcznie, natomiast adres mailowy, imię i telefon są domyślnie uzupełnione.
+  * Przy testowaniu aplikacji natywnej trzeba zwrócić uwagę, aby przetestować aplikację na wielu urządzeniach, co jest kosztowne oraz pracochłonne. Ważne jest określenie, którą wersję aplikacji się testuje. Aplikacja natywna daje również możliwość korzystania z zasobów własnego urządzenia mobilnego. Przy testowaniu aplikacji internetowej nie trzeba jej instalować na urządzeniu oraz aktualizować, natomiast trzeba mieć bieżące połączenie internetowe, a także aplikacja nie ma dostępu do zasobów naszego urządzenia.
   
   
