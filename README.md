@@ -122,10 +122,19 @@ Znalezione błędy w aplikacji:
   ## Subtask 3
   
 1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+  
   `SELECT * FROM `actors` ORDER BY surname`
+  
   (![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/f2b1ab75-cd80-480f-bd82-b4b3a4c6ce82))
+  
+2. Wyświetl film, który powstał w 2019 roku.
 
-3. Wyświetl film, który powstał w 2019 roku.
+  `SELECT * FROM `movies` WHERE year_of_production='2019'`
+  
+  (![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/3f65d551-55b6-4e1e-8a67-7f1d8f9a378f))
+
+
+
 4. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
 5. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 6. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
