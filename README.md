@@ -117,4 +117,20 @@ Znalezione błędy w aplikacji:
     * Następnie dodałabym możliwość wpisania lokalizacji sprzedającego domyślnie na stałe, w chwili obecnej dodając ogłoszenie za każdym razem trzeba lokalizację wybierać ręcznie, natomiast adres mailowy, imię i telefon są domyślnie uzupełnione.
   * Przy testowaniu aplikacji natywnej trzeba zwrócić uwagę, aby przetestować aplikację na wielu urządzeniach, co jest kosztowne oraz pracochłonne. Ważne jest określenie, którą wersję aplikacji się testuje. Aplikacja natywna daje również możliwość korzystania z zasobów własnego urządzenia mobilnego. Przy testowaniu aplikacji internetowej nie trzeba jej instalować na urządzeniu oraz aktualizować, natomiast trzeba mieć bieżące połączenie internetowe, a także aplikacja nie ma dostępu do zasobów naszego urządzenia.
   
+#   Task 5: SQL - part 1
   
+  ## Subtask 3
+  
+1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.
+  `SELECT * FROM `actors` ORDER BY surname`
+  (![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/f2b1ab75-cd80-480f-bd82-b4b3a4c6ce82))
+
+3. Wyświetl film, który powstał w 2019 roku.
+4. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+5. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+6. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
+7. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+8. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+9. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
+10. Wyświetl dane klienta, który nie ma podanego adresu email.
+11. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
