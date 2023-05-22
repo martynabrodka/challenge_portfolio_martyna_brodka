@@ -125,19 +125,29 @@ Znalezione błędy w aplikacji:
   
   `SELECT * FROM `actors` ORDER BY surname`
   
-  (![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/f2b1ab75-cd80-480f-bd82-b4b3a4c6ce82))
+  ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/f2b1ab75-cd80-480f-bd82-b4b3a4c6ce82)
   
 2. Wyświetl film, który powstał w 2019 roku.
 
   `SELECT * FROM `movies` WHERE year_of_production='2019'`
   
-  (![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/3f65d551-55b6-4e1e-8a67-7f1d8f9a378f))
+  ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/3f65d551-55b6-4e1e-8a67-7f1d8f9a378f)
+  
+3. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
+
+  `SELECT * FROM `movies` WHERE year_of_production BETWEEN 1900 AND 1999`
+  
+  ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/b10c1a95-4661-4e63-8f5c-72e0da6c1704)
+
+4. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+
+  `SELECT title,price FROM `movies` WHERE price < '7'`
+  
+  ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/3e0d2665-4cf8-4c97-a9c8-f71c22b825ca)
+
+5. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 
 
-
-4. Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem.
-5. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
-6. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN.
 7. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
 8. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
 9. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”.
