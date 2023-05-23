@@ -119,6 +119,10 @@ Znalezione błędy w aplikacji:
   
 #   Task 5: SQL - part 1
   
+  ## Subtask 1
+  
+  W ramach tego zagadnienia opanowałam zapytania SQL, takie jak: SELECT (służące do znalezienia danych z bazy danych), INSERT INTO (dodawanie danych do tabeli), UPDATE (aktualizacja tabeli), DELETE (usuwanie danych z tabeli). Przy zapytaniu SELECT używałam warunku WHERE do filtrowania rekordów, grupowałam rekordy (operator GROUP BY), sortowałam wyniki (operator ORDER BY), wyszukiwałam dane o określonych zapisach (operator LIKE), dane o wartościach najmniejszych (funkcja MIN), dane o wartościach maksymalnych (funkcja MAX), używałam funkcji AVG w celu zwrócenia średniej wartości kolumny numerycznej, funkcji SUM w celu zwrócenia całkowitej sumy kolumny numerycznej, także wyszukiwałam wartości z określonego zakresu za pomocą operatora BETWEEN.
+  
   ## Subtask 3
   
 **1. Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname.**
@@ -171,8 +175,9 @@ Znalezione błędy w aplikacji:
 
 **9. Wyświetl dane klienta, który nie ma podanego adresu email.**
 
-  `SELECT * FROM 'customers' WHERE email NOT LIKE '%@%'`
+  `SELECT * FROM customers WHERE email IS NULL`
   
+  ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/2f82f77f-523c-48df-8eef-1c88e028b1e1)
   
 **10. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.**
 
