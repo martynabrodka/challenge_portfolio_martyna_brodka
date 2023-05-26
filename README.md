@@ -193,7 +193,7 @@ Znalezione błędy w aplikacji:
   `UPDATE customers SET surname = "Miler" WHERE name = "Ania"`
   
   ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/c8cd18a4-6c77-4a10-92b5-bed1ed03e2f1)
-
+  
 **12. Pobrano za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila.
 
 `SELECT customers.name, customers.email, sale.movie_id FROM customers INNER JOIN sale ON customers.customer_id = sale.customer_id WHERE movie_id = 4`
@@ -218,6 +218,15 @@ Znalezione błędy w aplikacji:
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/29ea21d1-736f-4f6c-b053-8dcd948974bd)
 
+`UPDATE customers SET pseudonym = "Ols" WHERE name = "Ola"`
+`UPDATE customers SET pseudonym = "Kal" WHERE name = "Katia"`
+`UPDATE customers SET pseudonym = "Anr" WHERE name = "Ania"`
+`UPDATE customers SET pseudonym = "Par" WHERE name = "Patrycja"`
+`UPDATE customers SET pseudonym = "Mao" WHERE name = "Mateusz"`
+`UPDATE customers SET pseudonym = "Nag" WHERE name = "Natalie"`
+
+![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/872b3bcd-1cf5-45dc-9531-9885fc077c45)
+
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
 `SELECT DISTINCT movies.title FROM sale INNER JOIN movies ON sale.movie_id = movies.movie_id`
@@ -230,7 +239,11 @@ Znalezione błędy w aplikacji:
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/4110926d-969a-49e2-b24f-f464da12832a)
 
-**18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
+**18. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.
+
+`UPDATE movies SET price = price+2.5 WHERE year_of_production > 2000`
+
+![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/7899cfa3-74dc-4f50-8974-462267996dc6)
 
 **19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
@@ -239,3 +252,7 @@ Znalezione błędy w aplikacji:
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/17036777-636e-4105-a89d-2c95cd339aea)
 
 **20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+`INSERT INTO customers VALUES (7, "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa")`
+
+![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/4a84d62a-c042-4840-af33-e69f5b0f8363)
