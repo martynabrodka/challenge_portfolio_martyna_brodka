@@ -214,6 +214,10 @@ Znalezione błędy w aplikacji:
 
 **15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customers,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
+`ALTER TABLE customers ADD COLUMN pseudonym varchar(20)`
+
+![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/29ea21d1-736f-4f6c-b053-8dcd948974bd)
+
 **16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
 `SELECT DISTINCT movies.title FROM sale INNER JOIN movies ON sale.movie_id = movies.movie_id`
