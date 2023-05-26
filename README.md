@@ -188,31 +188,31 @@ Znalezione błędy w aplikacji:
 #   Task 6: SQL - part 2
   ## Subtask 1
   
-**11. Przy wpisywaniu nazwiska Ani Miler został popełniony błąd (wpisano Muler). Znajdź i zastosuj funkcję, która poprawi błąd.
+**11. Przy wpisywaniu nazwiska Ani Miler został popełniony błąd (wpisano Muler). Znajdź i zastosuj funkcję, która poprawi błąd.**
 
   `UPDATE customers SET surname = "Miler" WHERE name = "Ania"`
   
   ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/c8cd18a4-6c77-4a10-92b5-bed1ed03e2f1)
   
-**12. Pobrano za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila.
+**12. Pobrano za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji JOIN sprawdź, jak ma na imię klient i jakiego ma maila.**
 
 `SELECT customers.name, customers.email, sale.movie_id FROM customers INNER JOIN sale ON customers.customer_id = sale.customer_id WHERE movie_id = 4`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/6f35f7a6-325f-48e3-b54c-fb7956e56e7f)
 
-**13. Sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+**13. Sprzedawca zapomniał wpisać email klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com.**
 
 `UPDATE customers SET email = "pati@mail.com" WHERE name = "Patrycja"`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/31c51cc2-3b1f-4734-9d40-22cfc712b4cd)
 
-**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
+**14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu (wykorzystaj do tego funkcję INNER JOIN, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).**
 
 `SELECT sale.sale_date, customers.name, customers.surname, movies.title FROM ((sale INNER JOIN customers ON sale.customer_id = customers.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id)`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/1159781c-7aee-484c-8f9d-c61149e3cb67)
 
-**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customers,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
+**15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customers. Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag.**
 
 `ALTER TABLE customers ADD COLUMN pseudonym varchar(20)`
 
@@ -227,31 +227,31 @@ Znalezione błędy w aplikacji:
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/872b3bcd-1cf5-45dc-9531-9885fc077c45)
 
-**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+**16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.**
 
 `SELECT DISTINCT movies.title FROM sale INNER JOIN movies ON sale.movie_id = movies.movie_id`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/d538d756-e507-490b-bd92-cf218f5416ea)
 
-**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcję UNION)
+**17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcję UNION).**
 
 `SELECT name FROM actors UNION SELECT name FROM customers`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/4110926d-969a-49e2-b24f-f464da12832a)
 
-**18. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.
+**18. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $.**
 
 `UPDATE movies SET price = price+2.5 WHERE year_of_production > 2000`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/7899cfa3-74dc-4f50-8974-462267996dc6)
 
-**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+**19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał.**
 
 `SELECT actors.name, actors.surname, movies.title FROM ((cast INNER JOIN actors ON cast.actor_id = actors.actor_id) INNER JOIN movies ON cast.movie_id = movies.movie_id) WHERE actors.actor_id = 4`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/17036777-636e-4105-a89d-2c95cd339aea)
 
-**20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+**20. Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa.**
 
 `INSERT INTO customers VALUES (7, "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa")`
 
