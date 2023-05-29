@@ -256,3 +256,8 @@ Znalezione błędy w aplikacji:
 `INSERT INTO customers VALUES (7, "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa")`
 
 ![image](https://github.com/martynabrodka/portfolio_martyna_brodka/assets/95524252/4a84d62a-c042-4840-af33-e69f5b0f8363)
+
+## Subtask 2
+
+11/15 punktów
+
