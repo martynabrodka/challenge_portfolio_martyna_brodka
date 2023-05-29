@@ -1,4 +1,4 @@
-# portfolio_martyna_brodka
+# challengeDareIT_portfolio_martyna_brodka
 
 #   Task 1: Testy eksploracyjne
   ## Subtask 1
